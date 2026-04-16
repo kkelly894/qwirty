@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pokepedia</title>
+    <title>PokePedia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Luckiest+Guy&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home"
     />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="header.css" />
@@ -20,17 +24,204 @@
     <header class="site-header">
       <nav class="site-nav">
         <ul class="left-header">
-          <li><a href="">Pokemon Center</a></li>
-          <li><a href="">Gym Index</a></li>
-          <li><a href="">Pokemart</a></li>
-          <li><a href="">Your Collection</a></li>
+          <li><a href="#">Pokemon Center</a></li>
+          <li><a href="#">Gym Index</a></li>
+          <li><a href="#">Pokemart</a></li>
+          <li><a href="#">Contact Us</a></li>
         </ul>
         <ul class="right-header">
-          <li><a href="">Log In or Sign Up</a></li>
-          <li><a href="">Pokedex</a></li>
-          <li><a href="">Trading Post</a></li>
+          <li><a href="#">Log In or Sign Up</a></li>
+          <li><a href="#">Pokedex</a></li>
+          <li>
+            <a href="#">
+              <span class="material-symbols-sharp">home</span>
+            </a>
+          </li>
         </ul>
       </nav>
+      <div class="search-bar">
+        <h1>PokePedia</h1>
+        <form>
+          <input
+            id="product_search"
+            name="product_search"
+            type="search"
+            placeholder="Who's that Pokemon?"
+          />
+          <button>Find that Pokemon!</button>
+        </form>
+        <a href="#" class="collection">Pokedex</a>
+      </div>
     </header>
+    <aside>
+      <ul class="sidebar">
+        <li><a href="#">Grass Type</a></li>
+        <li><a href="#">Fire Type</a></li>
+        <li><a href="#">Water Type</a></li>
+        <li><a href="#">Lightning Type</a></li>
+        <li><a href="#">Psychic Type</a></li>
+        <li><a href="#">Fighting Type</a></li>
+        <li><a href="#">Metal Type</a></li>
+        <li><a href="#">Dark Type</a></li>
+      </ul>
+    </aside>
+    <main>
+      <ul class="pokemon-main">
+        <li class="pokemon">
+          <h2>Bulbasaur</h2>
+          <figure>
+            <img
+              src="https://imgur.com/a/FXNPmFW#yKpjzjV"
+              alt="A picture of bulbasaur, a green grass type pokemon styled after a seed pod"
+            />
+          </figure>
+          <p class="description">
+            For some time after its birth, it uses the nutrients that are packed
+            into the seed on its back in order to grow.
+          </p>
+          <footer></footer>
+        </li>
+        <li class="pokemon">
+          <h2>Charmander</h2>
+          <figure>
+            <img
+              src="https://imgur.com/a/FXNPmFW#ao1C201"
+              alt="A photo of charmander standing upright, he is orange and has a flame tipped tail and a joyous expression"
+            />
+          </figure>
+          <p class="description">
+            The flame on its tail shows the strength of its life-force. If
+            Charmander is weak, the flame also burns weakly.
+          </p>
+        </li>
+        <li class="pokemon">
+          <h2>Squirtle</h2>
+          <figure>
+            <img
+              src="https://imgur.com/a/FXNPmFW#AfRpORt"
+              alt="Squirtle tanding upright with his arms reaching outwards, he has a blue body with a turtle shell"
+            />
+          </figure>
+          <p class="description">
+            After birth, its back swells and hardens into a shell. It sprays a
+            potent foam from its mouth.
+          </p>
+        </li>
+        <li class="pokemon">
+          <h2>Pikachu</h2>
+          <figure>
+            <img
+              src="https://imgur.com/a/FXNPmFW#jYzOO6S"
+              alt="Pikachu leaping forward with a gleeful look on his face, he is a yellow pal with long ears that have black tips, a zig zag tail, and prominent red cheeks"
+            />
+          </figure>
+          <p class="description">
+            When it is angered, it immediately discharges the energy stored in
+            the pouches in its cheeks.
+          </p>
+        </li>
+        <li class="pokemon">
+          <h2>Jigglypuff</h2>
+          <figure>
+            <img
+              src="https://imgur.com/a/FXNPmFW#7nKZexE"
+              alt="Jigglypuff is a small round pastel pink pokemon with a swirly tuft of hair in the front and pointy ears like a cat"
+            />
+          </figure>
+          <p class="description">
+            When its huge eyes waver, it sings a mysteriously soothing melody
+            that lulls its enemies to sleep.
+          </p>
+        </li>
+        <li class="pokemon">
+          <h2>Psyduck</h2>
+          <figure>
+            <img
+              src="https://imgur.com/a/FXNPmFW#j2bE2sX"
+              alt="Psyduck is a yellow pokemon with a long flat bill, webbed bird like paws, and 3 tufts of hair atop his head"
+            />
+          </figure>
+          <p class="description">
+            It is constantly wracked by a headache. When the headache turns
+            intense, it begins using mysterious powers.
+          </p>
+        </li>
+        <li class="pokemon">
+          <h2>Slowpoke</h2>
+          <figure>
+            <img
+              src="https://imgur.com/a/FXNPmFW#m2VR7fM"
+              alt="Slowpoke laying down facing forward with its arms tucked under its chin, it has rounded ears and a long tail sticking upright"
+            />
+          </figure>
+          <p class="description">
+            It is incredibly slow and dopey. It takes five seconds for it to
+            feel pain when under attack.
+          </p>
+        </li>
+        <li class="pokemon">
+          <h2>Tangela</h2>
+          <figure>
+            <img
+              src="https://imgur.com/a/FXNPmFW#XZGMAmg"
+              alt="Tangela is a round pokemon with two bright eyes inset a shadowed face, it is covered with deeply intertwined vines and has two red oval feet"
+            />
+          </figure>
+          <p class="description">
+            Hidden beneath a tangle of vines that grows nonstop even if the
+            vines are torn off, this Pokémons true appearance remains a mystery.
+          </p>
+        </li>
+        <li class="pokemon">
+          <h2></h2>
+          <figure>
+            <img src="#" alt="#" />
+          </figure>
+          <p class="description"></p>
+        </li>
+        <li class="pokemon">
+          <h2></h2>
+          <figure>
+            <img src="#" alt="#" />
+          </figure>
+          <p class="description"></p>
+        </li>
+        <li class="pokemon">
+          <h2></h2>
+          <figure>
+            <img src="#" alt="#" />
+          </figure>
+          <p class="description"></p>
+        </li>
+        <li class="pokemon">
+          <h2></h2>
+          <figure>
+            <img src="#" alt="#" />
+          </figure>
+          <p class="description"></p>
+        </li>
+        <li class="pokemon">
+          <h2></h2>
+          <figure>
+            <img src="#" alt="#" />
+          </figure>
+          <p class="description"></p>
+        </li>
+        <li class="pokemon">
+          <h2></h2>
+          <figure>
+            <img src="#" alt="#" />
+          </figure>
+          <p class="description"></p>
+        </li>
+        <li class="pokemon">
+          <h2></h2>
+          <figure>
+            <img src="#" alt="#" />
+          </figure>
+          <p class="description"></p>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
